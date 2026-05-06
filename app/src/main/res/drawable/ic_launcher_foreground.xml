@@ -17,5 +17,5 @@
         android:fillColor="#FFFFFF"
         android:centerX="54"
         android:centerY="54"
-        android:radius="4"/>
+        android:radius="@dimen/icon_radius"/>
 </vector>

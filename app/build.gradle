@@ -1,5 +1,11 @@
 plugins {
     id "com.android.application"
+    id "org.jetbrains.kotlin.android"
+}
+
+repositories {
+    google()
+    mavenCentral()
 }
 
 android {
@@ -26,7 +32,7 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
+    android.kotlinOptions {
         jvmTarget = "17"
     }
 }
